@@ -4,7 +4,7 @@
 }
 
 <h1>
-Registro de usuario
+  Registro de usuario
 </h1>
 
 <form class="row g-3">
@@ -12,22 +12,23 @@ Registro de usuario
     <label for="validationServer01" class="form-label">Nombre</label>
     <input type="text" class="form-control is-valid" id="validationServer01" value="Juanito" required>
     <div class="valid-feedback">
-     ¡Se ve bien!
-     
+      ¡Se ve bien!
+
     </div>
   </div>
   <div class="col-md-4">
     <label for="validationServer02" class="form-label">Apellidos</label>
     <input type="text" class="form-control is-valid" id="validationServer02" value="Alimaña" required>
     <div class="valid-feedback">
-     ¡Se ve bien!
+      ¡Se ve bien!
     </div>
   </div>
   <div class="col-md-4">
     <label for="validationServerUsername" class="form-label">Nombre de usuario</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend3">Correo</span>
-      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername"
+        aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
       <div id="validationServerUsernameFeedback" class="invalid-feedback">
         Por favor, elija un nombre de usuario.
       </div>
@@ -35,26 +36,32 @@ Registro de usuario
   </div>
   <div class="col-md-6">
     <label for="validationServer03" class="form-label">Ciudad</label>
-    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+    <input type="text" class="form-control is-invalid" id="validationServer03"
+      aria-describedby="validationServer03Feedback" required>
     <div id="validationServer03Feedback" class="invalid-feedback">
       Proporcione una ciudad válida.
     </div>
   </div>
-  <div class="col-md-3">
-    <label for="validationServer04" class="form-label">Departamento</label>
-    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-      <option selected disabled value="">Elegir...</option>
-      <option>...</option>
-      <option>Medellin</option>
+  <div class="dropdown">
+    <label for="exampleFormcontrolInput1" class="form-label">departamentos</label>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Seleccione</option>
+
+      @foreach (string item in Model.departamentos)
+      {
+        <option value="3">@item</option>
+      }
+
     </select>
     <div id="validationServer04Feedback" class="invalid-feedback">
       Seleccione un Departamento válido.
     </div>
-  </div>    
+  </div>
   </div>
   <div class="col-12">
     <div class="form-check">
-      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+        aria-describedby="invalidCheck3Feedback" required>
       <label class="form-check-label" for="invalidCheck3">
         Acepto los términos y condiciones.
       </label>

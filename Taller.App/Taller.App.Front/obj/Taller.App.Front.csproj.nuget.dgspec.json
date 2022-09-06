@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App.Front\\Taller.App.Front.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App\\Taller.App.Front\\Taller.App.Front.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App.Front\\Taller.App.Front.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App\\Taller.App.Front\\Taller.App.Front.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App.Front\\Taller.App.Front.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App\\Taller.App.Front\\Taller.App.Front.csproj",
         "projectName": "Taller.App.Front",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App.Front\\Taller.App.Front.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App\\Taller.App.Front\\Taller.App.Front.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App.Front\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\proyecto-g8\\Taller.App\\Taller.App.Front\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
